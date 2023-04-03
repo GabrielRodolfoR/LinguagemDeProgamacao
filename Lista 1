@@ -123,14 +123,18 @@ else:
 Lista 10
 
 nome = input("Digite o nome do funcionário: ")
-sal = float(input("Digite o salario do funcionário: "))
-prodA = int (input("Digite a quantidade vendida do produto A: "))
-prodB = int (input("Digite a quantidade vendida do produto B: "))
-prodC = int (input("Digite a quantidade vendida do produto C: "))
+sal = float (input("Digite o salario do funcionário: "))
+prod = input("Digite o código do produto escolhido: ")
+quant = int (input("Digite a quantidade do produto escolhido: "))
 
-prodA = prodA*5*0.05
-prodB = prodB*10*0.1
-prodC = prodC*15*0.05
-
-sal = sal+prodA+prodB+prodC
-print(sal)
+if (prod == "1"):
+    sal = sal + (5*0.05*quant)
+    print(sal)
+elif(prod == "2"):
+    sal = sal + (10*0.1*quant)
+    print(sal)
+elif(prod == "3"):
+    sal = sal + (15*0.05*quant)
+    print(sal)
+else:
+    print("codigo inválido")
