@@ -120,7 +120,7 @@ else:
     print("Saldo Inválido")
     
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Lista 9
+Lista 10
 
 nome = input("Digite o nome do funcionário: ")
 sal = float(input("Digite o salario do funcionário: "))
