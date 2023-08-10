@@ -12,3 +12,5 @@ f = {}
 print(type(f))
 g = 5 + 1j
 print(type(g))
+h = True
+print(type(h))
