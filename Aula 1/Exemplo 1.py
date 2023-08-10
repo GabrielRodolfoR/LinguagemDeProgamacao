@@ -1,4 +1,12 @@
-"""a = 5
+"""
+caso queira comentar um bloco, usa-se essas aspas
+ai meio que fica assim sabe
+entendesse
+blocao
+e comentado
+"""
+
+a = 5
 print(type(a))
 b = "Gabriel"
 print(type(b))
@@ -13,4 +21,4 @@ print(type(f))
 g = 5 + 1j
 print(type(g))
 h = True
-print(type(h))"""
+print(type(h))
