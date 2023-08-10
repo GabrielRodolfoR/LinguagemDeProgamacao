@@ -1,4 +1,4 @@
-# Logica_de_Progamacao
+# Linguagem de Programacao
 Criador: Gabriel Rodolfo Rabello
 
 Exercicios realizados para a disciplina de lógica de programação
