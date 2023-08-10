@@ -1,4 +1,4 @@
-a = 5
+"""a = 5
 print(type(a))
 b = "Gabriel"
 print(type(b))
@@ -13,4 +13,4 @@ print(type(f))
 g = 5 + 1j
 print(type(g))
 h = True
-print(type(h))
+print(type(h))"""
