@@ -2,7 +2,6 @@ a = ["Gabriel", "Rodolfo", "Marcos", "Nunes", "Joao", "Gabriel", "Rodolfo", "Rod
 
 print(a)
 for i in a:
-
     if "Rodolfo" in a:
         a.remove("Rodolfo")
 print(a)
