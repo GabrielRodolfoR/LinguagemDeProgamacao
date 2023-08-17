@@ -15,3 +15,4 @@ print(d)
 print(a.count("Gabriel")) #numeros de vezes que apareceu na lista
 print(len(a))
 
+print(a.index("Marcos"))
