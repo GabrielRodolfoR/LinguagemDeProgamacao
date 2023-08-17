@@ -5,3 +5,7 @@ print(val)
 print(sorted(val))
 val.reverse
 print(val)
+
+print(min(val))
+print(max(val))
+print(sum(val))
