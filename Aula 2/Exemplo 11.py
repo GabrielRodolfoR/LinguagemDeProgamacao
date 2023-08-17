@@ -1,10 +1,9 @@
+n = 1
+
 while True:
-    a = input("Curso (abreviação): ")
-    if a.upper == "INF":
-        print("informatica")
-    elif a.upper == "ADM":
-        print("Administração")
-    elif a.upper == "ELT":
-        print("Eletrotécnica")
-    else:
+    n = int(input("Digite um numero: "))
+
+    if n == 0:
         break
+    else:
+        print(n)
