@@ -5,7 +5,6 @@ def main():
         total = 0.0
         produtos = []
         
-        # Receber os valores das mercadorias
         while True:
             valor = float(input(f"b. Produto {len(produtos) + 1}: R$ "))
             if valor == 0:

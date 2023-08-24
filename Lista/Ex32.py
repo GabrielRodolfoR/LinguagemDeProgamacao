@@ -1,14 +1,13 @@
-cidade = 5
 dados = []
 
-for i in range(cidade):
+for i in range(5):
     print(f"Digite os dados da cidade {i+1}:")
     codigo = input("Código da cidade: ")
     veiculos = int(input("Número de veículos de passeio (em 1999): "))
     acidentes = int(input("Número de acidentes de trânsito com vítimas (em 1999): "))
     dados.append((codigo, veiculos, acidentes))
 
-maior = -1
+maior = 0
 menor = float('inf')
 maiorC = ""
 menorC = ""
@@ -28,8 +27,8 @@ for cidade, veiculos, acidentes in dados:
 
     total += veiculos
 
-media = total / cidade
+media = total / 5
 
-print(f"O maior índice de acidentes de trânsito foi {maior:.2f} na cidade {maiorC}.")
-print(f"O menor índice de acidentes de trânsito foi {menor:.2f} na cidade {menorC}.")
-print(f"A média de veículos nas cinco cidades juntas é {media:.2f}.")
+print(f"O maior índice de acidentes de trânsito foi {maior} na cidade {maiorC}.")
+print(f"O menor índice de acidentes de trânsito foi {menor} na cidade {menorC}.")
+print(f"A média de veículos nas cinco cidades juntas é {media}.")
