@@ -5,6 +5,6 @@ soma = n1 + n2
 
 print(f"Soma: {soma}")
 
-tipo = input("Digite algo: ")
+tipo = input("Digite algo: ") #sempre retornará string
 
 print(type(tipo))
