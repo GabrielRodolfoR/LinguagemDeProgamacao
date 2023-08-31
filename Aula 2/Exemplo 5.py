@@ -15,7 +15,6 @@ print(a)
 a.remove("Marcos")
 print(a)
 
-
 print(b)
 b = a.pop(0)
 print(a, "\n", b)

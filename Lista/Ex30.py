@@ -1,5 +1,4 @@
-def main():
-    while True:
+while True:
         print("a. Lojas Tabajara")
         
         total = 0.0
@@ -24,5 +23,3 @@ def main():
         nova_compra = input("Realizar nova compra? (s/n): ")
         if nova_compra.lower() != "s":
             break
-
-main()
