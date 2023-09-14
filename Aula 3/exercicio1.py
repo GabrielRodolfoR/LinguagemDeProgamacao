@@ -1,42 +1,40 @@
-def soma(a,b):
-    s = a+b
-    return s
+def add(a, b):
+    result = a + b
+    return result
 
-def sub(a,b):
-    s = a-b
-    return s
+def subtract(a, b):
+    result = a - b
+    return result
 
-def mult(a,b):
-    s = a*b
-    return s
+def multiply(a, b):
+    result = a * b
+    return result
 
-def div(a,b):
-    s = a/b
-    return s
+def divide(a, b):
+    result = a / b
+    return result
 
 while True:
-    a=0
-    cod = int(input("1-Soma"
-                "\n2-Subtração"
-                "\n3-Multiplicação"
-                "\n4-Divisão"
-                "\n5-Sair"
-                "\nDigite o código: "))
-    if(cod == 5):
-            break
+    a = 0
+    code = int(input("1-Add"
+                     "\n2-Subtract"
+                     "\n3-Multiply"
+                     "\n4-Divide"
+                     "\n5-Exit"
+                     "\nEnter the code: "))
+    if code == 5:
+        break
 
-    a = int(input("Digite o 1º numero: "))
-    b = int(input("Digite o 2º numero: "))
-        
-    if(cod == 1):
-            a = soma(a,b)
-    elif(cod == 2):
-            a = sub(a,b)
-    elif(cod == 3):
-            a= mult(a,b)
-    elif(cod == 4):
-            a = div(a,b)
-    
-    print(f"O resultado é {a}")
+    a = int(input("Enter the 1st number: "))
+    b = int(input("Enter the 2nd number: "))
 
-    
+    if code == 1:
+        a = add(a, b)
+    elif code == 2:
+        a = subtract(a, b)
+    elif code == 3:
+        a = multiply(a, b)
+    elif code == 4:
+        a = divide(a, b)
+
+    print(f"The result is {a}")
