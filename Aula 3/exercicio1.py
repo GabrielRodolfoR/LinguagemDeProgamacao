@@ -22,17 +22,21 @@ while True:
                 "\n4-Divisão"
                 "\n5-Sair"
                 "\nDigite o código: "))
+    if(cod == 5):
+            break
+
+    a = int(input("Digite o 1º numero: "))
+    b = int(input("Digite o 2º numero: "))
         
     if(cod == 1):
-            a = soma(int(input("Digite o primeiro numero: ")), int(input("Digite o segundo numero: ")))
+            a = soma(a,b)
     elif(cod == 2):
-            a = sub(int(input("Digite o primeiro numero: ")), int(input("Digite o segundo numero: ")))
+            a = sub(a,b)
     elif(cod == 3):
-            a= mult(int(input("Digite o primeiro numero: ")), int(input("Digite o segundo numero: ")))
+            a= mult(a,b)
     elif(cod == 4):
-            a = div(int(input("Digite o primeiro numero: ")), int(input("Digite o segundo numero: ")))
+            a = div(a,b)
     
     print(f"O resultado é {a}")
 
-    if(cod == 5):
-            break
+    
